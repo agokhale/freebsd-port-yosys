@@ -18,6 +18,6 @@ USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
 GH_TAGNAME=	v0.3
 
-BINS=		yosys
+BINS=		yosys yosys-abc       yosys-config    yosys-filterlib yosys-smtbmc
 
 .include <bsd.port.mk>
