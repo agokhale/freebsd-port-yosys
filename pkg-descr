@@ -9,3 +9,5 @@ Yosys is free software licensed under the ISC license (a GPL compatible license
 that is similar in terms to the MIT license or the 2-claus e BSD license).
 Together, Yosys, arachne-pnr and IceStorm provide an fully open-source 
 Verilog-to-bistream tool chain for iCE40 1K and 8K FPGA development.
+
+requires /proc mounted with procfs
