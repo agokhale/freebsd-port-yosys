@@ -11,7 +11,7 @@ COMMENT=	Verilog synthesizer RTL framework
 LICENSE=	ISCL
 
 USES=		tar:xz gmake
-BUILD_DEPENDS= 	gmake:devel/gmake  bison:devel/bison  flex:textproc/flex hg:devel/mercurial dot:graphics/graphviz python3:lang/python3
+BUILD_DEPENDS= 	gmake:devel/gmake  bison:devel/bison  flex:textproc/flex hg:devel/mercurial dot:graphics/graphviz python3:lang/python3 tclsh:lang/tcp-wrapper
 LIB_DEPENDS=    libffi.so:devel/libffi
 
 USE_GITHUB= 	yes
